@@ -4,6 +4,8 @@
     background-color:red;
     border-radius: 50%;
     display: inline-block ;
+    margin-top: 50px;
+    margin-left: 40%;
 }
 .circle-b {
     height: 50px;
@@ -11,3 +13,91 @@
     background-color:rgb(76, 0, 255);
     border-radius: 50%;
     display: inline-block ;
+    display: inline-block ;
+    margin-top: 50px;
+}
+.circle-a{
+    animation: animation-a 4s ease-in infinite;
+}
+.circle-b{
+    animation:  animation-b 4s ease-out infinite;
+}
+@keyframes animation-a {
+    0%{
+        transform: translate3d(0px,0px,0px);
+    }
+    50%{
+        transform: translate3d(0px,30px,0px);
+    }
+    100%{
+        transform: translate3d(0px,0px,0px);
+    }
+}
+@keyframes animation-b {
+    0%{
+        transform: translate3d(0px,0px,0px);
+    }
+    50%{
+        transform: translate3d(0px,30px,0px);
+    }
+    100%{
+        transform: translate3d(0px,0px,0px);
+    }
+}
+.circle-c {
+    height: 50px;
+    width: 50px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block ;
+    margin-top: 50px;
+}
+.circle-d {
+    height: 50px;
+    width: 50px;
+    background-color:rgb(76, 0, 255);
+    border-radius: 50%;
+    display: inline-block ;
+    display: inline-block ;
+    margin-top: 50px;
+}
+.circle-c{
+    animation: animation-c 4s ease-in infinite;
+}
+.circle-d{
+    animation:  animation-d 4s ease-out infinite;
+}
+@keyframes animation-c {
+    0%{
+        transform: translate3d(0px,0px,0px);
+    }
+    50%{
+        transform: translate3d(0px,30px,0px);
+    }
+    100%{
+        transform: translate3d(0px,0px,0px);
+    }
+}
+@keyframes animation-d {
+    0%{
+        transform: translate3d(0px,0px,0px);
+    }
+    50%{
+        transform: translate3d(0px,30px,0px);
+    }
+    100%{
+        transform: translate3d(0px,0px,0px);
+    }
+}
+.circle-a:hover{
+    background-color:pink;
+}
+.circle-b:hover{
+    background-color:aqua;
+}
+.circle-c:hover{
+    background-color: pink;
+}
+.circle-d:hover{
+    background-color: aqua;
+}
