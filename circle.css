@@ -1,0 +1,13 @@
+.circle-a {
+    height: 50px;
+    width: 50px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block ;
+}
+.circle-b {
+    height: 50px;
+    width: 50px;
+    background-color:rgb(76, 0, 255);
+    border-radius: 50%;
+    display: inline-block ;
