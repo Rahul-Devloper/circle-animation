@@ -101,3 +101,24 @@
 .circle-d:hover{
     background-color: aqua;
 }
+.circle {
+    height: 20px;
+    width: 20px;
+    background-color:rgb(212, 0, 255);
+    border-radius: 50%;
+    display: inline-block ;
+    margin-top: 250px;
+    margin-left: 40%;
+    animation:  animation 4s cubic-bezier(.02,1.59,.96,-0.51) 2;
+    }
+    @keyframes animation {
+        0%{
+            transform: translate3d(300px,250px,0px);
+        }
+        50%{
+            transform: translate3d(250px,0px,0px);
+        }
+        100%{
+            transform: translate3d(200px,250px,0px);
+        }
+    }
