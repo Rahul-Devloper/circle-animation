@@ -107,9 +107,9 @@
     background-color:rgb(212, 0, 255);
     border-radius: 50%;
     display: inline-block ;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: 40%;
-    animation:  animation 4s cubic-bezier(.02,1.59,.96,-0.51) 2;
+    animation:  animation 4s cubic-bezier(.02,1.59,.96,-0.51) 2 ;
     }
     @keyframes animation {
         0%{
@@ -121,4 +121,21 @@
         100%{
             transform: translate3d(200px,250px,0px);
         }
+    }
+    #heading{
+        animation:  heading 7.3s ease-out infinite;
+    }
+    @keyframes heading {
+        0%{
+            transform: translate3d(0px,0px,0px);
+        }
+        50%{
+            transform: translate3d(1000px,0px,0px);
+        }
+        100%{
+            transform: translate3d(0px,0px,0px);
+        }
+    }
+    hr{
+        border-style: dashed;
     }
